@@ -13,6 +13,7 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
+	// Greeting
 	@GetMapping
 	public String helloGamer()
 	{
